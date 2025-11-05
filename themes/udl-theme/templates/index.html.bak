@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row align-items-center">
+    <div class="col-md-7">
+        <h1 class="display-4 mb-4">Welcome to Useful Dynamics</h1>
+        <p class="lead">Building autonomous drone systems with ROS2 and PX4.</p>
+        <p>We develop production-grade flight control software for autonomous drones, focusing on safety, reliability, and modularity.</p>
+        <ul class="mt-4">
+            <li>ROS2-PX4 Integration</li>
+            <li>Autonomous Navigation</li>
+            <li>Computer Vision Pipeline</li>
+            <li>AI-Driven Decision Making</li>
+        </ul>
+        <a href="https://calendly.com/admin546773-usefuldynamics/30min" class="btn btn-primary mt-3">Book</a>
+    </div>
+    <div class="col-md-5 img-container">
+        <img src="{{ SITEURL }}/images/udl-logo.png" class="img-fluid" alt="UDL Logo">
+    </div>
+</div>
+{% endblock %}
