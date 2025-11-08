@@ -66,10 +66,10 @@
                         <a class="nav-link" href="https://calendly.com/admin546773-usefuldynamics/30min">Book</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://usefuldynamics.io/pages/projects.html">Projects</a>
+                        <a class="nav-link" href="/pages/projects.html">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://usefuldynamics.io/pages/about.html">About</a>
+                        <a class="nav-link" href="/pages/about.html">About</a>
                     </li>
                     <!-- Social icons -->
                     <li class="nav-item">
@@ -92,7 +92,16 @@
 <div class="row align-items-center">
     <div class="col-md-7">
         <h1 class="mb-4">Projects</h1>
-        <p>Coming soon ...</p>
+        <h3>PX4 Autonomy</h3>
+<p><a href="https://github.com/rick-dn/px4_autonomy" class="btn btn-primary mt-3" target="_blank">GitHub</a></p>
+<p><strong>Project Overview</strong>: px4_autonomy is a lightweight ROS2 interface for PX4 drone offboard control. It provides clean service-based APIs for autonomous flight operations—arm, takeoff, goto, velocity control, and landing—abstracted from the complexity of PX4 messaging. Designed for rapid development of autonomous drone applications on embedded systems like Jetson Orin Nano.
+<strong>Future Roadmap</strong>: Vision-based autonomy through modular computer vision nodes: ArUco marker detection and pose estimation (deployed), object detection with YOLO (complete), and upcoming semantic segmentation. Advanced perception via visual SLAM for drift-free navigation, multi-sensor fusion combining GPS/IMU/vision data, and 3D pose estimation for precise object tracking and manipulation tasks. Goal: a production-ready autonomous drone stack balancing performance and accessibility.</p>
+<h3>UDL Aakash</h3>
+<p><strong>Overview:</strong> UDL Aakash is a production-grade ROS2-PX4 flight controller enabling autonomous drone operations through modular, safety-first architecture.
+<strong>Current:</strong> Centralized vehicle management with position control, state machine, continuous PX4 heartbeat, and service-based command interface.
+<strong>Next 3 months:</strong> Multi-control modes (velocity, attitude, trajectory), geofencing, battery monitoring, mission execution, and hardware validation on real drones.
+<strong>Future:</strong> Vision integration (YOLO, ArUco, 3D reconstruction), SLAM for GPS-denied flight, LLM-powered autonomous agents, and Jetson TX2 deployment.</p>
+<p><strong>Test bed</strong>: sitl: ROS-PX4 Gazebo sim, hitl: PixHawk-f450, vision: Jetson Orin </p>
     </div>
     <div class="col-md-5 img-container">
             <img src="/images/udl-logo.png" class="img-fluid" alt="Projects">
@@ -117,7 +126,7 @@
                             </a>
                 </div>
                 <div class="col-md-4 text-end">
-                    <p><a href="https://usefuldynamics.io/pages/contact.html">Contact Us</a></p>
+                    <p><a href="/pages/contact.html">Contact Us</a></p>
                 </div>
             </div>
         </div>
